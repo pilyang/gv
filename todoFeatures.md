@@ -5,8 +5,8 @@ This project is focused on creating a version manager for the Go programming lan
 
 ## MVP Features
 
-- [ ] **Version Check**
-  - Implement the `gv -versions` command
+- [x] **Version Check**
+  - Implement the `gv -v`, `gv --versions` command
   - Scan and display the installed Go versions
   - Output should be generated using `go version` or `goX.XX.X version`
 
