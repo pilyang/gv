@@ -21,6 +21,9 @@ This project is focused on creating a version manager for the Go programming lan
 
 These features are not essential for the initial release but could enhance the functionality of the Go version manager:
 
+- [ ] **Help**
+  - show help documentation with `gv -h` or `gv --help`
+
 - [ ] **Version Installation**
   - Implement the `gv -i x.x.x` command to install new Go versions
 
