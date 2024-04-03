@@ -10,7 +10,7 @@ const version = "version"
 // ShowVersions prints the installed Go versions.
 // It first prints the version of Go installed in GOROOT,
 // then it prints the versions of Go installed in GOBIN.
-func ShowVersions() {
+func ShowVersions(args ...string) {
 	// Print the version of Go installed in GOROOT
 	fmt.Println("GOROOT Installed version")
 	executeAndWriteOutput("go")
